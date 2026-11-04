@@ -1,0 +1,16 @@
+Modelo: SVM
+Accuracy: 0.8895
+F1 Macro: 0.8897
+F1 Weighted: 0.8897
+
+Reporte de Clasificación:
+              precision    recall  f1-score   support
+
+    Business       0.82      0.86      0.84       500
+    Sci/Tech       0.87      0.87      0.87       500
+      Sports       0.95      0.96      0.96       500
+       World       0.92      0.87      0.89       500
+
+    accuracy                           0.89      2000
+   macro avg       0.89      0.89      0.89      2000
+weighted avg       0.89      0.89      0.89      2000

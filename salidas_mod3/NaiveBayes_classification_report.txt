@@ -1,0 +1,16 @@
+Modelo: NaiveBayes
+Accuracy: 0.8965
+F1 Macro: 0.8967
+F1 Weighted: 0.8967
+
+Reporte de Clasificación:
+              precision    recall  f1-score   support
+
+    Business       0.83      0.87      0.85       500
+    Sci/Tech       0.89      0.87      0.88       500
+      Sports       0.95      0.96      0.96       500
+       World       0.92      0.88      0.90       500
+
+    accuracy                           0.90      2000
+   macro avg       0.90      0.90      0.90      2000
+weighted avg       0.90      0.90      0.90      2000

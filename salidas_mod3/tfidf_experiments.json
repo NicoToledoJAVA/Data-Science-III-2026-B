@@ -1,0 +1,137 @@
+{
+  "unigram_5k": {
+    "config": {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "name": "unigram_5k"
+    },
+    "cv_f1_macro_mean": 0.878239694948852,
+    "cv_f1_macro_std": 0.00338068741128376,
+    "test_accuracy": 0.887,
+    "test_f1_macro": 0.8871415609585309,
+    "vocabulary_size": 5000,
+    "feature_names_sample": [
+      "aaron",
+      "ab",
+      "abandon",
+      "abbas",
+      "abbey",
+      "abc",
+      "abduct",
+      "abidjan",
+      "ability",
+      "able"
+    ]
+  },
+  "unigram_10k": {
+    "config": {
+      "max_features": 10000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "name": "unigram_10k"
+    },
+    "cv_f1_macro_mean": 0.8792614668629795,
+    "cv_f1_macro_std": 0.003164853329983411,
+    "test_accuracy": 0.8895,
+    "test_f1_macro": 0.8895683046624407,
+    "vocabulary_size": 9093,
+    "feature_names_sample": [
+      "aa",
+      "aapl",
+      "aaron",
+      "ab",
+      "abandon",
+      "abbas",
+      "abbey",
+      "abbott",
+      "abc",
+      "abduct"
+    ]
+  },
+  "bigram_5k": {
+    "config": {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "name": "bigram_5k"
+    },
+    "cv_f1_macro_mean": 0.8788628113457809,
+    "cv_f1_macro_std": 0.004223353085378874,
+    "test_accuracy": 0.89,
+    "test_f1_macro": 0.890167378161594,
+    "vocabulary_size": 5000,
+    "feature_names_sample": [
+      "aaron",
+      "ab",
+      "abandon",
+      "abbey",
+      "abbey national",
+      "abc",
+      "abduct",
+      "ability",
+      "able",
+      "aboard"
+    ]
+  },
+  "bigram_10k": {
+    "config": {
+      "max_features": 10000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "name": "bigram_10k"
+    },
+    "cv_f1_macro_mean": 0.8815765396654314,
+    "cv_f1_macro_std": 0.0047802571909667125,
+    "test_accuracy": 0.8905,
+    "test_f1_macro": 0.8905851990583774,
+    "vocabulary_size": 10000,
+    "feature_names_sample": [
+      "aa",
+      "aaron",
+      "aaron peirsol",
+      "ab",
+      "abandon",
+      "abbas",
+      "abbey",
+      "abbey national",
+      "abbott",
+      "abc"
+    ]
+  },
+  "bigram_20k": {
+    "config": {
+      "max_features": 20000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "name": "bigram_20k"
+    },
+    "cv_f1_macro_mean": 0.8823240033075935,
+    "cv_f1_macro_std": 0.0041735760106290445,
+    "test_accuracy": 0.8925,
+    "test_f1_macro": 0.892628663111361,
+    "vocabulary_size": 20000,
+    "feature_names_sample": [
+      "aa",
+      "aa billion",
+      "aapl",
+      "aaron",
+      "aaron peirsol",
+      "aaron williams",
+      "ab",
+      "abandon",
+      "abandon sensitive",
+      "abandon trip"
+    ]
+  }
+}

@@ -1,0 +1,659 @@
+{
+ "train_shape": [
+  8000,
+  2
+ ],
+ "test_shape": [
+  2000,
+  2
+ ],
+ "nulls": 0,
+ "dups": 0,
+ "noise": {
+  "html_tags": 0,
+  "html_entities": 2414,
+  "urls": 244,
+  "agency_tags": 1644,
+  "entities_sin_amp": 2174,
+  "ticker_boilerplate": 65,
+  "datelines": 967
+ },
+ "len_raw": {
+  "count": 8000.0,
+  "mean": 37.96,
+  "std": 9.98,
+  "min": 8.0,
+  "25%": 32.0,
+  "50%": 38.0,
+  "75%": 43.0,
+  "max": 142.0
+ },
+ "len_proc": {
+  "count": 8000.0,
+  "mean": 22.96,
+  "std": 5.85,
+  "min": 5.0,
+  "25%": 19.0,
+  "50%": 23.0,
+  "75%": 26.0,
+  "max": 71.0
+ },
+ "p95_proc": 32,
+ "p95_raw": 53,
+ "empty_docs": 0,
+ "len_by_class": {
+  "Business": 23.0,
+  "Sci_Tech": 22.0,
+  "Sports": 22.0,
+  "World": 24.0
+ },
+ "classes_train": {
+  "Business": 2000,
+  "Sci_Tech": 2000,
+  "Sports": 2000,
+  "World": 2000
+ },
+ "classes_test": {
+  "Business": 500,
+  "Sci_Tech": 500,
+  "Sports": 500,
+  "World": 500
+ },
+ "bigrams": [
+  [
+   "new york",
+   419
+  ],
+  [
+   "oil price",
+   197
+  ],
+  [
+   "united states",
+   167
+  ],
+  [
+   "prime minister",
+   139
+  ],
+  [
+   "red sox",
+   98
+  ],
+  [
+   "san francisco",
+   96
+  ],
+  [
+   "los angeles",
+   96
+  ],
+  [
+   "president bush",
+   93
+  ],
+  [
+   "victory over",
+   90
+  ],
+  [
+   "year old",
+   88
+  ],
+  [
+   "win over",
+   75
+  ],
+  [
+   "mobile phone",
+   72
+  ],
+  [
+   "wall street",
+   71
+  ],
+  [
+   "microsoft corp",
+   70
+  ],
+  [
+   "world cup",
+   69
+  ],
+  [
+   "chief executive",
+   67
+  ],
+  [
+   "european union",
+   65
+  ],
+  [
+   "kill people",
+   65
+  ],
+  [
+   "year ago",
+   63
+  ],
+  [
+   "world large",
+   60
+  ]
+ ],
+ "trigrams": [
+  [
+   "new york stock",
+   37
+  ],
+  [
+   "boston red sox",
+   37
+  ],
+  [
+   "high oil price",
+   27
+  ],
+  [
+   "prime minister ariel",
+   26
+  ],
+  [
+   "minister ariel sharon",
+   25
+  ],
+  [
+   "state colin powell",
+   22
+  ],
+  [
+   "secretary state colin",
+   22
+  ],
+  [
+   "president vladimir putin",
+   21
+  ],
+  [
+   "new york yankees",
+   21
+  ],
+  [
+   "president george bush",
+   21
+  ],
+  [
+   "security exchange commission",
+   20
+  ],
+  [
+   "crude oil price",
+   20
+  ],
+  [
+   "international space station",
+   18
+  ],
+  [
+   "prime minister tony",
+   17
+  ],
+  [
+   "minister tony blair",
+   17
+  ],
+  [
+   "los angeles dodger",
+   16
+  ],
+  [
+   "st louis cardinal",
+   16
+  ],
+  [
+   "initial public offering",
+   16
+  ],
+  [
+   "mart stores inc",
+   15
+  ],
+  [
+   "osama bin laden",
+   15
+  ]
+ ],
+ "top50_with_stop": [
+  [
+   "the",
+   13694
+  ],
+  [
+   "to",
+   7968
+  ],
+  [
+   "of",
+   6576
+  ],
+  [
+   "in",
+   6362
+  ],
+  [
+   "be",
+   5028
+  ],
+  [
+   "and",
+   4637
+  ],
+  [
+   "on",
+   3774
+  ],
+  [
+   "for",
+   3409
+  ],
+  [
+   "have",
+   2468
+  ],
+  [
+   "say",
+   1975
+  ],
+  [
+   "that",
+   1932
+  ],
+  [
+   "with",
+   1770
+  ],
+  [
+   "as",
+   1714
+  ],
+  [
+   "at",
+   1667
+  ],
+  [
+   "its",
+   1500
+  ],
+  [
+   "it",
+   1436
+  ],
+  [
+   "new",
+   1433
+  ],
+  [
+   "by",
+   1357
+  ],
+  [
+   "from",
+   1221
+  ],
+  [
+   "an",
+   1194
+  ],
+  [
+   "will",
+   1070
+  ],
+  [
+   "year",
+   969
+  ],
+  [
+   "after",
+   946
+  ],
+  [
+   "his",
+   940
+  ],
+  [
+   "not",
+   802
+  ],
+  [
+   "over",
+   802
+  ],
+  [
+   "their",
+   733
+  ],
+  [
+   "up",
+   731
+  ],
+  [
+   "he",
+   727
+  ],
+  [
+   "two",
+   675
+  ],
+  [
+   "first",
+   672
+  ],
+  [
+   "company",
+   650
+  ],
+  [
+   "world",
+   608
+  ],
+  [
+   "but",
+   598
+  ],
+  [
+   "one",
+   582
+  ],
+  [
+   "win",
+   579
+  ],
+  [
+   "they",
+   577
+  ],
+  [
+   "more",
+   576
+  ],
+  [
+   "us",
+   558
+  ],
+  [
+   "game",
+   552
+  ],
+  [
+   "report",
+   551
+  ],
+  [
+   "out",
+   545
+  ],
+  [
+   "this",
+   543
+  ],
+  [
+   "oil",
+   519
+  ],
+  [
+   "monday",
+   518
+  ],
+  [
+   "wednesday",
+   505
+  ],
+  [
+   "thursday",
+   502
+  ],
+  [
+   "tuesday",
+   495
+  ],
+  [
+   "make",
+   483
+  ],
+  [
+   "friday",
+   480
+  ]
+ ],
+ "top50_with_stop_nstop": 37,
+ "top50_final": [
+  [
+   "new",
+   1433
+  ],
+  [
+   "year",
+   969
+  ],
+  [
+   "not",
+   802
+  ],
+  [
+   "over",
+   802
+  ],
+  [
+   "up",
+   731
+  ],
+  [
+   "company",
+   650
+  ],
+  [
+   "world",
+   608
+  ],
+  [
+   "win",
+   579
+  ],
+  [
+   "game",
+   552
+  ],
+  [
+   "report",
+   551
+  ],
+  [
+   "oil",
+   519
+  ],
+  [
+   "monday",
+   518
+  ],
+  [
+   "wednesday",
+   505
+  ],
+  [
+   "thursday",
+   502
+  ],
+  [
+   "tuesday",
+   495
+  ],
+  [
+   "friday",
+   480
+  ],
+  [
+   "week",
+   473
+  ],
+  [
+   "price",
+   465
+  ],
+  [
+   "million",
+   461
+  ],
+  [
+   "against",
+   454
+  ],
+  [
+   "inc",
+   452
+  ],
+  [
+   "time",
+   447
+  ],
+  [
+   "microsoft",
+   446
+  ],
+  [
+   "plan",
+   441
+  ],
+  [
+   "iraq",
+   440
+  ],
+  [
+   "yesterday",
+   424
+  ],
+  [
+   "york",
+   419
+  ],
+  [
+   "day",
+   410
+  ],
+  [
+   "lead",
+   409
+  ],
+  [
+   "president",
+   409
+  ],
+  [
+   "kill",
+   403
+  ],
+  [
+   "high",
+   401
+  ],
+  [
+   "no",
+   395
+  ],
+  [
+   "official",
+   364
+  ],
+  [
+   "open",
+   358
+  ],
+  [
+   "government",
+   354
+  ],
+  [
+   "security",
+   354
+  ],
+  [
+   "season",
+   347
+  ],
+  [
+   "corp",
+   341
+  ],
+  [
+   "group",
+   341
+  ],
+  [
+   "rise",
+   335
+  ],
+  [
+   "team",
+   332
+  ],
+  [
+   "people",
+   332
+  ],
+  [
+   "united",
+   332
+  ],
+  [
+   "end",
+   329
+  ],
+  [
+   "month",
+   329
+  ],
+  [
+   "share",
+   329
+  ],
+  [
+   "state",
+   325
+  ],
+  [
+   "stock",
+   317
+  ],
+  [
+   "market",
+   316
+  ]
+ ],
+ "top50_final_nstop": 5,
+ "top50_final_stop_list": [
+  "not",
+  "over",
+  "up",
+  "against",
+  "no"
+ ],
+ "vocab_with_stop": 17101,
+ "vocab_final": 16859,
+ "hapax_final": 6724,
+ "tokens_with_stop": 284093,
+ "tokens_final": 183689,
+ "stop_share_tokens": 0.3534,
+ "example": [
+  [
+   "Red Hat Appoints New CFO. September 2, 2004 -- (WEB HOST INDUSTRY REVIEW) -- Linux distributor Red Hat (redhat.com) announced on Thursday that it has appointed Charles E. Peters, Jr.",
+   "red hat appoint new cfo september linux distributor red hat announce thursday appoint charles peters jr"
+  ],
+  [
+   "Sprint, SBC In Hotspot Roaming Deal. Sprint and SBC Communications Friday announced a two-way roaming deal that will enable the customers of each vendor to access the hotspots run by the other.",
+   "sprint sbc hotspot roam deal sprint sbc communication friday announce way roam deal enable customer vendor access hotspot run"
+  ],
+  [
+   "Radio Outage Grounds West Coast Flights. Airport operations were back to normal early Wednesday following a radio failure at a Federal Aviation Administration control facility that tied up travelers for hours.",
+   "radio outage ground west coast flights airport operation normal early wednesday follow radio failure federal aviation administration control facility tie up traveler hour"
+  ]
+ ]
+}

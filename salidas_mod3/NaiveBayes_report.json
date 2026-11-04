@@ -1,0 +1,72 @@
+{
+  "model_name": "NaiveBayes",
+  "accuracy": 0.8965,
+  "f1_macro": 0.8966574658199001,
+  "f1_weighted": 0.8966574658199001,
+  "classification_report": {
+    "Business": {
+      "precision": 0.8304761904761905,
+      "recall": 0.872,
+      "f1-score": 0.8507317073170731,
+      "support": 500.0
+    },
+    "Sci/Tech": {
+      "precision": 0.8891170431211499,
+      "recall": 0.866,
+      "f1-score": 0.8774062816616008,
+      "support": 500.0
+    },
+    "Sports": {
+      "precision": 0.9544554455445544,
+      "recall": 0.964,
+      "f1-score": 0.9592039800995025,
+      "support": 500.0
+    },
+    "World": {
+      "precision": 0.9151138716356108,
+      "recall": 0.884,
+      "f1-score": 0.8992878942014242,
+      "support": 500.0
+    },
+    "accuracy": 0.8965,
+    "macro avg": {
+      "precision": 0.8972906376943763,
+      "recall": 0.8965,
+      "f1-score": 0.8966574658199001,
+      "support": 2000.0
+    },
+    "weighted avg": {
+      "precision": 0.8972906376943764,
+      "recall": 0.8965,
+      "f1-score": 0.8966574658199001,
+      "support": 2000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      436,
+      39,
+      4,
+      21
+    ],
+    [
+      47,
+      433,
+      5,
+      15
+    ],
+    [
+      6,
+      7,
+      482,
+      5
+    ],
+    [
+      36,
+      8,
+      14,
+      442
+    ]
+  ],
+  "timestamp": "2026-11-04T11:03:19.350945"
+}

@@ -1,0 +1,19 @@
+# Data Science III - Módulo 3: Clasificador supervisado con TF-IDF
+# Versiones verificadas en el entorno de desarrollo (Python 3.11)
+
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+joblib>=1.3
+
+matplotlib>=3.7
+seaborn>=0.12
+
+# Preprocesamiento del Módulo 2
+spacy>=3.6
+# Modelo de idioma requerido:
+#   python -m spacy download en_core_web_sm
+
+# Notebook (opcional)
+jupyter>=1.0
+nbformat>=5.9
